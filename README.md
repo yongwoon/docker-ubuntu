@@ -4,6 +4,9 @@
 docker pull ubuntu:18.04
 
 docker run -it -d --name my-ubuntu ubuntu:18.04
+
+# 정지된 container 를 다시 시작하기
+docker start my-ubuntu
 ```
 
 # Link
